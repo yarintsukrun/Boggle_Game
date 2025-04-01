@@ -1,0 +1,23 @@
+The personal additions for our Boggle game:
+
+1. HINT button:
+    For the cost of two point, the hint button will mark a letter for a split of a second.
+    a. If the user has not yet chosen a first letter for the solution, the hint will mark a letter on the board from
+       which there is a start for a possible solution
+    b. If the user has already selected several letters and there is a continuation to a possible solution,
+       the hint will mark the next possible letter to the solution.
+    c. If the user reached a solution and pressed the hint button, the hint will mark the Check button.
+    d. If the user has already selected several letters and there is no possible solution for that path,
+       the hint will mark the delete button
+
+2. The number of possible words:
+    In the game start menu, the user will be shown the amount of possible words that exist for this board,
+    before seeing the board itself.
+
+3. Words Found list:
+    During the game, the user will be presented with a list containing all the words he found and cannot use again.
+
+4. All available words:
+    At the endgame menu, the user will be shown all possible words for that board
+
+
